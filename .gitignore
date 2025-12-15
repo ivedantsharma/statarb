@@ -1,3 +1,13 @@
 echo "venv/" > .gitignore
 echo "__pycache__/" >> .gitignore
 echo ".DS_Store" >> .gitignore
+
+echo "*.pyc" >> .gitignore
+echo ".env" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "*.egg-info/" >> .gitignore
+echo "dist/" >> .gitignore
+echo "build/" >> .gitignore
+echo ".pytest_cache/" >> .gitignore
+echo ".coverage" >> .gitignore
+echo "*.log" >> .gitignore
